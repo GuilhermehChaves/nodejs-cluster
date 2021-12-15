@@ -2,7 +2,7 @@
   "name": "nodejs-cluster",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/cluster",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
@@ -12,7 +12,8 @@
     "loadtest": "^5.1.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "start:cluster": "node src/cluster.js"
   },
   "keywords": [],
   "author": "",
